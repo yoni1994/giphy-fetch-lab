@@ -1,8 +1,8 @@
 import React from 'react';
 
-function Gif() {
+function Gif({gif}) {
     return(
-        <img src="" alt="" />
+        <img src={gif} alt="gif" />
     )
 }
 
